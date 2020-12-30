@@ -1,0 +1,18 @@
+{
+  "name": "discord-bot-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/bot/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "http://github.com/SmartBR/discord-bot-web",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
+}

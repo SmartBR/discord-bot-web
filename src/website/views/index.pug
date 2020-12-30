@@ -1,0 +1,9 @@
+extends ./layout/layout
+
+block head
+    title #{client.user.username}
+
+block body
+    h1 #{client.user.username}
+    h4 #{client.config.website.description}
+

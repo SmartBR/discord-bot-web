@@ -1,4 +1,4 @@
-![dashboard-img](https://media.discordapp.net/attachments/788415546315767829/794324670974263306/tSEydJkCAAAECBAgQIECAAAECBAgQIEBg9AXf1As5hnUadwKAAAAAElFTkSuQmCC.png?width=891&height=433)
+![dashboard-img](https://media.discordapp.net/attachments/788415546315767829/794327968263438367/unknown.png?width=890&height=434)
 
 # discord-bot-web
 Painel em tempo real de acordo com as informações do seu bot.

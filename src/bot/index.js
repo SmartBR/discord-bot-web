@@ -5,6 +5,7 @@ client.config = require("../../resource/config.json")
 const fs = require("fs")
 const path = require("path")
 
+// Se adicionar mais categorias, você terá que colocar abaixo
 const commandCategories = [
     { name: "Diversão", identify: "fun", description: "Aquele baguncinha não pode faltar né ?"},
     { name: "Minecraft", identify: "minecraft", description: "O famoso joguinho não pode faltar."}

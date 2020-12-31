@@ -5,5 +5,6 @@ Painel em tempo real de acordo com as informações do seu bot.
 
 # Inicialização
 Clone o repositório através do [Git](https://git-scm.com/downloads)
-- ```bash
-git clone https://github.com/SmartBR/discord-bot-web.git```
+```bash
+git clone https://github.com/SmartBR/discord-bot-web.git
+```

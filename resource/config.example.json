@@ -1,0 +1,15 @@
+{
+  "prefix": "your_prefix",
+  "token": "your_bot_token",
+
+  "website": {
+    "domain": "localhost",
+    "port": 80,
+
+    "support_server": "your_support_server",
+    "invite": "your_invite_link",
+
+    "keywords": "bot para discord discord bot discord.js bot",
+    "description": "Bot com multiplas funcionalidades para divertir seu servidor."
+  }
+}

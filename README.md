@@ -12,7 +12,7 @@ git clone https://github.com/SmartBR/discord-bot-web.git
 - No diretório **resource** localizado na pasta principal
   - Renomei o arquivo **config.example.json** para **config.json**
  
-  - Agora você precisa baixar as dependências, digite o comando abaixo no terminal
+- Agora você precisa baixar as dependências (terminal)
 ```bash
 npm install
 ```

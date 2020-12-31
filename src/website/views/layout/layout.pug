@@ -3,11 +3,13 @@ head
     meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
     meta(name="theme-color" content="#3d7af5")
     meta(name="author" content="Smart")
-    meta(name="description" content=`${config.website.description}`)
-    meta(name="keywords" content=`${config.website.description}`)
+    meta(name="description" content=`${client.config.website.description}`)
+    meta(name="keywords" content=`${client.config.website.description}`)
 
-    meta(property="og:keywords" content=`${config.website.keywords}`)
+    meta(property="og:keywords" content=`${client.config.website.keywords}`)
     meta(property="og:site_name" content=`${client.user.username}`)
+
+    link(rel="stylesheet" href="/css/")
 
     //bootstrap
     link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous")
@@ -24,8 +26,7 @@ head
     script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js")
     script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js")
     script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js")
-
     block head
 
-body
+body(style="background-color: #2b2a2a")
     block body

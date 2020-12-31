@@ -1,0 +1,13 @@
+h1 #{category.name}
+h5 #{category.description}
+
+table.table
+    thead.table-dark
+        .tr
+            th.font-weight-bold.text-white(scope="col") Comando
+            th.font-weight-bold.text-white(scope="col") Descrição
+            th.font-weight-bold.text-white(scope="col") Alternativa
+
+        for command in commands
+            - aliases = command.aliases ? command.aliases.join(", ") : "*"
+                include ./command

@@ -16,3 +16,8 @@ git clone https://github.com/SmartBR/discord-bot-web.git
 ```bash
 npm install
 ```
+
+- Após configurar o projeto **(config.json)**, inicialize a aplicação com o seguinte comando
+```bash
+npm start
+```

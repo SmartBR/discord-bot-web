@@ -8,3 +8,6 @@ Painel em tempo real de acordo com as informações do seu bot.
 ```bash
 git clone https://github.com/SmartBR/discord-bot-web.git
 ```
+
+- No diretório **resource** localizado na pasta principal
+  - Renomei o arquivo **config.example.json** para **config.json**

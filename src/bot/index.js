@@ -32,4 +32,21 @@ client.on("ready", () => {
     console.log("Aplicação online!")
 })
 
+client.on("message", (message) => {
+    if (message.author.bot || !message.content.startsWith(client.config.prefix)) return
+
+    const args = message.content.slice(client.config.prefix.length).split(" ")
+    const commandName = args.shift()
+    const command = client.commands.get(commandName) || client.commands.find(cmd => cmd.aliases && cmd.aliases.includes(commandName))
+
+    if (command) {
+        try {
+            command.execute(client, message, args)
+        }catch(err) {
+            console.error(err)
+            message.reply("houve um erro ao executar este comando.")
+        }
+    }
+})
+
 client.login(client.config.token)

@@ -32,7 +32,6 @@ client.on("ready", () => {
     require("../website/server")(client)
 
     console.log("Aplicação online!")
-    console.log(client.commandCategories)
 })
 
 client.on("message", (message) => {

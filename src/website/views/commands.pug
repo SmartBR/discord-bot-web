@@ -10,6 +10,6 @@ block body
         a.btn.btn-sm.btn-warning(href="/") Voltar
 
         .mx-auto.mt-5
-            each commands in client.commandCategories.array()
+            each commands in client.commandCategories.array().filter(cmd => cmd.length > 0)
                 - category = commands[0].category
                     include ./command/commandCategory

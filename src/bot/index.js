@@ -20,9 +20,11 @@ commandCategories.forEach(category => {
         const categories = client.commandCategories
 
         command.category = category
-
         client.commands.set(command.name, command)
-        categories.set(category, categories.get(category.identify) ? categories.get(category.identify).push(command) : [command])
+
+        if (categories.get(category.identify)) {
+            categories.get(category.identify).push(command)
+        }else categories.set(category.identify, [command])
     })
 })
 
@@ -30,6 +32,7 @@ client.on("ready", () => {
     require("../website/server")(client)
 
     console.log("Aplicação online!")
+    console.log(client.commandCategories)
 })
 
 client.on("message", (message) => {
